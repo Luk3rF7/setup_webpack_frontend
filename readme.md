@@ -1,6 +1,5 @@
-#    webpack frontend
+#    Webpack Front end
 
- <h3> Configurando webpack </h3>
 <section>
  <h2> config inicial packager </h2>
           
