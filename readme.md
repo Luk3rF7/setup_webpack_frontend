@@ -3,7 +3,9 @@
 <section>
  <h2> config inicial packager </h2>
           
-          
+  <section style="border:1px solid green; border-radius:8px">     
+
+   
             "scripts": {  
                    <!-- serão gerado script -->
                   "start": "webpack",
@@ -20,6 +22,7 @@
              "webpack-cli": "^5.1.4"
              }
 
+</section>
 </section>
 
 <h2> npm initial </h2>
@@ -44,7 +47,7 @@
 <section>
  <h2> modulos </h2>
           
-          
+ <section style="border:1px solid green; border-radius:8px">  
            import Pessoa from './pessoa'
            
             =  * modulos será executado caso   * =
@@ -57,9 +60,12 @@
           console.log(atendente.cumprimentar())
 
 </section>
-<section>
+</section>
+
+
  <h2> config de saida </h2>
-                    
+<section style="border:1px solid green; border-radius:8px">
+ 
       output: {
       filename: 'principal.js', // nomedo arquivo raiz
       path: __dirname + '/public',  // caminho onde sera jogado arquivo
